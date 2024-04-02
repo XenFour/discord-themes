@@ -3,3 +3,4 @@ a collection of discord themes XenFour Team has made. All of the themes in this 
 
 # Raw Files
 > [Catto](https://raw.githubusercontent.com/XenFour/discord-themes/main/catto.theme.css)
+> [Brutalist](https://raw.githubusercontent.com/XenFour/discord-themes/main/brutalist.theme.css)
