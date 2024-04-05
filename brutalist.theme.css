@@ -1,21 +1,14 @@
 /**
  * @name Brutalist (Brutecord)
  * @author Citrizon @ XenFour
- * @version 3.2.5
- * @description Extra Dark Theme for Discord, Based on Citrizon's Ci-Sine Style.
+ * @version 3.2.6
+ * @description Based on Citrizon's Ci-Sine Style.
  * @source https://github.com/XenFour/discord-themes/
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    /* Application Name */
-    --app-big-name: "Brutecord";
-    --app-sml-name: "";
-    
-    /* Borderless Mode, Uncomment and set to zero */
-    /* --borderless-mode: 0;                      */
-
     /* Colors */
     --background-accent-a: #121212;
     --background-accent-b: #202020;
@@ -76,7 +69,7 @@ video.ready__61f2f { display:none; }
 
 /* Coloring */
 .theme-dark:root { --background-primary: var(--background-accent-b); --background-secondary: var(--background-accent-a); --background-secondary-alt: var(--background-accent-a); --background-tertiary: var(--background-accent-a); --channeltextarea-background: var(--background-accent-a); --__header-bar-background: var(--background-accent-b)!important; --status-positive-background: #79506e!important; }
-.winButton_f17fb6 { position:relative; top: 15px; right: 8px; box-shadow: -10px 0px 15px 12px var(--background-accent-b); background-color: #484848; border-radius: 100%; width: 20px; height: 20px; margin-top: 4px; margin-right: 5px; }
+.winButton_f17fb6 { position:relative; z-index: 99999; top: 15px; right: 8px; box-shadow: -10px 0px 15px 12px var(--background-accent-b); background-color: #484848; border-radius: 100%; width: 20px; height: 20px; margin-top: 4px; margin-right: 5px; }
 .winButton_f17fb6 svg { width: 8px; height: 8px; }
 .winButton_f17fb6:nth-child(2) { box-shadow: 0px 0px 20px 14px var(--background-accent-b); }
 .container_f79ab4 { background: var( --background-primary ) }
@@ -88,15 +81,16 @@ video.ready__61f2f { display:none; }
 .numberBadge__40d6f { background-color: var(--applic-accent-color)!important; color: black!important; }
 
 /* Positioning */
-.titleBar__710b0 { position: fixed; z-index: 9999; width: 100%; top: 0; left: 0; height: 18px; }
-.appAsidePanelWrapper__5e6e2 .guilds__2b93a { margin-top: 25px; }
-.appAsidePanelWrapper__5e6e2 .sidebar_e031be { margin-top: 0px; }
+.titleBar__710b0 { position: fixed; z-index: 999; pointer-events:none; width: 100%; top: 0; left: 0; height: 60px; background-color: transparent; }
+.appAsidePanelWrapper__5e6e2 .guilds__2b93a { margin-top: 5px; -webkit-app-region:no-drag; }
+.children_cde9af { -webkit-app-region:no-drag; }
+.appAsidePanelWrapper__5e6e2 .sidebar_e031be { margin-top: 0px; -webkit-app-region:no-drag; }
 .appAsidePanelWrapper__5e6e2 .sidebar_e031be .searchBar__621ec, .appAsidePanelWrapper__5e6e2 .sidebar_e031be .header__77c95 { height: 65.59px!important; display: flex; flex-direction: column; justify-content: center; width: 100%; }
 .appAsidePanelWrapper__5e6e2 .chat__52833 { padding-top: 0px; }
 .appAsidePanelWrapper__5e6e2 .applicationStore__444b9 { padding-top: 18px; background: var(--background-accent-b); }
 .appAsidePanelWrapper__5e6e2 main.container_bd15da { padding-top: 0px; background: var(--background-accent-b); }
 .appAsidePanelWrapper__5e6e2 .shop_b31ed2 { padding-top: 18px; background: var(--background-accent-b); }
-.title_d4ba1a { flex-direction: row; padding: 12.8px 8px; height: 65.59px!important; }
+.title_d4ba1a { flex-direction: row; padding: 12.8px 8px; height: 65.59px!important; z-index:100; }
 .appAsidePanelWrapper__5e6e2 main.container_bd15da > section { background: var(--background-accent-b); --__header-bar-background: var(--background-accent-b); flex-direction: row; padding: 21px 8px; }
 .appAsidePanelWrapper__5e6e2 main.container_bd15da .upperContainer__57565 { margin-right: var( --borderless-mode, 90px ); right: 0; }
 main.container_bd15da .children_cde9af { width: 1px; }
