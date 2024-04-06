@@ -1,7 +1,7 @@
 /**
  * @name Brutalist (Brutecord)
  * @author Citrizon @ XenFour
- * @version 3.2.6
+ * @version 3.2.5
  * @description Based on Citrizon's Ci-Sine Style.
  * @source https://github.com/XenFour/discord-themes/
 */
@@ -83,7 +83,8 @@ video.ready__61f2f { display:none; }
 /* Positioning */
 .titleBar__710b0 { position: fixed; z-index: 999; pointer-events:none; width: 100%; top: 0; left: 0; height: 60px; background-color: transparent; }
 .appAsidePanelWrapper__5e6e2 .guilds__2b93a { margin-top: 5px; -webkit-app-region:no-drag; }
-.children_cde9af { -webkit-app-region:no-drag; }
+.children_cde9af svg { -webkit-app-region:no-drag; }
+.children_cde9af .container__01bf0 { -webkit-app-region:no-drag; }
 .appAsidePanelWrapper__5e6e2 .sidebar_e031be { margin-top: 0px; -webkit-app-region:no-drag; }
 .appAsidePanelWrapper__5e6e2 .sidebar_e031be .searchBar__621ec, .appAsidePanelWrapper__5e6e2 .sidebar_e031be .header__77c95 { height: 65.59px!important; display: flex; flex-direction: column; justify-content: center; width: 100%; }
 .appAsidePanelWrapper__5e6e2 .chat__52833 { padding-top: 0px; }
