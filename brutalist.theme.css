@@ -379,28 +379,14 @@ nav.guilds_a4d4d9, .sidebar_a4d4d9 {
 
 /* Sizing */
 .searchBar_f0963d {
-    height: 56px;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    top: 0;
-    background: linear-gradient(180deg, var(--background-accent-a) 80%, transparent 100%);
     box-shadow: none;
-}
-.searchBar_f0963d + div > ul {
-    padding-top: 40px;
 }
 .searchBar_f0963d .searchBarComponent_f0963d {
     /* Search Bar Button */
     text-align: center;
-    width: calc( 100% - 20px );
-    position: absolute;
     height: 32px;
     box-shadow: none;
     background: var( --background-accent-b );
-    left: 50%;
-    transform: translateX( -50% );
-    top: 10px;
     border-radius: 6px;
 }
 
