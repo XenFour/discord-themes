@@ -270,7 +270,8 @@ video.ready_e40c16 {
 }
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .wrapper_f90abb:hover .childWrapper_f90abb,
-.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
+.barButtonBase_cf58b5 {
     --white-500: var(--applic-accent-fg);
 }
 .container_e44302 {
