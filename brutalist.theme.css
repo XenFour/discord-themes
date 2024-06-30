@@ -243,6 +243,7 @@ video.ready_e40c16 {
     --primary-600: var(--background-accent-a);
     --home-background: var(--background-accent-b);
     --background-secondary: var(--background-accent-a);
+    --background-accent: var( --applic-accent-bg );
     --modal-footer-background: var(--background-accent-b);
     --background-secondary-alt: var(--background-accent-a);
     --input-background: var(--background-accent-b);
@@ -271,7 +272,8 @@ video.ready_e40c16 {
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .wrapper_f90abb:hover .childWrapper_f90abb,
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
-.barButtonBase_cf58b5 {
+.barButtonBase_cf58b5,
+.iconBadge_c96c45 {
     --white-500: var(--applic-accent-fg);
 }
 .container_e44302 {
