@@ -269,6 +269,7 @@ video.ready_e40c16 {
     --white-500: var(--applic-accent-fg)!important;
     --brand-500: var(--applic-accent-bg);
 }
+.emojiItem_fbfedd.emojiItemSelected_fbfedd { background: var(--background-accent-b); }
 .lookFilled_dd4f85.colorBrand_dd4f85,
 .wrapper_f90abb:hover .childWrapper_f90abb,
 .wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
