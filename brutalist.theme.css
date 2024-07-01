@@ -297,7 +297,7 @@ video.ready_e40c16 {
      /* Overview Links */
      height: 40px;
 }
-.avatar_f9647d, .avatar_e9f61e {
+.avatar_f9647d, .avatar_e9f61e .avatar_ec86aa {
     filter: grayscale( var(--avatar-color-desaturate-lv) );
 }
 .anchorUnderlineOnHover_af404b {
