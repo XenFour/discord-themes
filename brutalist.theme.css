@@ -315,7 +315,7 @@ video.ready_e40c16 {
 .avatar_f9647d, .avatar_e9f61e, .avatar_ec86aa {
     filter: grayscale( var(--avatar-color-desaturate-lv) );
 }
-svg {
+.emptyChannelIcon_c2668b svg {
     --white: var( --applic-accent-fg );
 }
 
