@@ -1,0 +1,51 @@
+/**
+ * @name AMOLED
+ * @author Citrizon @ XenFour
+ * @version 1.0.0
+ * @description AMOLED Theme for Discord
+ * @source https://github.com/XenFour/discord-themes/
+*/
+
+/* Colors */
+:root, .theme-dark {
+    --theme-bg-master:    #000000;
+    --theme-bg-slave:     #060606;
+    --theme-bg-secondary: #121212;
+
+    --theme-accent-bg:    #C0C0C0;
+    --theme-accent-fg:    #000000;
+
+    --discord-brand-bg:   #c0c0c0;
+    --discord-brand-fg:   #000000;
+
+    --background-primary:         var( --theme-bg-master );
+    --background-secondary:       var( --theme-bg-slave );
+    --background-secondary-alt:   var( --theme-bg-slave );
+    --background-tertiary:        var( --theme-bg-secondary );
+    --deprecated-store-bg:        var( --background-primary );
+    --__header-bar-background:    var( --background-primary )!important;
+    --custom-channel-members-bg:  var( --background-primary )!important;
+    --channeltextarea-background: var( --theme-bg-secondary );
+    --bg-overlay-app-frame:       var( --theme-bg-slave );
+    --bg-brand:                   var( --discord-brand-bg );
+}
+
+/* Extras + Fixes */
+.numberBadge_df8943 {
+    background-color: var( --theme-accent-bg )!important;
+    color: var( --theme-accent-fg )!important;
+}
+
+.wrapper_fea3ef {
+    background-color: var( --theme-bg-slave );
+}
+
+.folderIconWrapper_bc7085 {
+    filter: grayscale( 0.6 ) brightness( 0.7 )
+}
+
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb {
+    background-color: var( --discord-brand-bg );
+    color: var( --discord-brand-fg );
+}
